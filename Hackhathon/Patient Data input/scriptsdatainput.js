@@ -8,7 +8,7 @@ function validateForm() {
     var occupation = document.getElementById('occupation').value;
 
     // Basic validation
-    if (name === '' || address === '' || birthdate === '' || phoneNumber === '' || email === '') {
+    if (name === '' || address === '' || birthdate === '' || phoneNumber === '' || email === '' || occupation === '') {
         alert('Please fill in all fields');
         return false;
     }

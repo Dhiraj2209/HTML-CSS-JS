@@ -7,8 +7,11 @@ main{
 }
 
 #patientForm {
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+    border-radius: 8px;
 }
 
 /* Style form labels */
@@ -23,17 +26,18 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="tel"],
-textarea,
+#medicalHistory,
+#state, #gender,
 input[type="date"],
 input[type="file"] {
     width: calc(100% - 130px); /* Adjust as needed */
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
+    border: 1.5px solid #ddd;
     border-radius: 4px;
     box-sizing: border-box;
     display: inline-block;
-    vertical-align: top;
+    vertical-align:middle;
 }
 
 input:hover,
@@ -47,7 +51,7 @@ select {
     width: calc(100% - 130px);
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1.5px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     display: inline-block;
@@ -56,7 +60,8 @@ select {
 
 /* Style submit button */
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #3d82ab;
+    text-align: center;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -66,5 +71,18 @@ input[type="submit"] {
 
 /* Change submit button color on hover */
 input[type="submit"]:hover {
-    background-color: #329c37;
+    background-color: #193a9d;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+::-webkit-scrollbar-track {
+    background: #3d82ab;
+}
+::-webkit-scrollbar-thumb {
+    background: #193a9d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #687fff;
 }
