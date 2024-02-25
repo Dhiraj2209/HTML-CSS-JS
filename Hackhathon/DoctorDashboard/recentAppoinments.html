@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent Appointments</title>
+    <link rel="stylesheet" href="styleForRApp.css">
+    
+</head>
+<body>
+    <h1>Recent Appointments</h1>
+    <hr>
+    <div class="controls">
+        <div class="sort">
+            Sort by:
+            <button onclick="sortTable(0)">Patient ID</button>
+            <button onclick="sortTable(1)">Patient Name</button>
+            <button onclick="sortTable(2)">Date</button>
+        </div>
+        <div class="filter">
+            Filter by Status:
+            <select id="statusFilter" onchange="filterAppointments()">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="pending">Pending</option>
+                <option value="cancelled">Cancelled</option>
+            </select>
+        </div>
+    </div>
+    
+    <hr>
+    <div>
+        Search by Patient Name: 
+        <input type="text" id="searchInput" oninput="searchAppointments()">
+    </div>
+    <hr>
+
+    <table id="appointmentsTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Patient Name</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Reason</th>
+                <th>Action</th>
+                <th>Patient History</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Appointments will be dynamically added here -->
+        </tbody>
+    </table>
+
+    <script src="scriptsForRAppoinment.js"></script>
+</body>
+</html>

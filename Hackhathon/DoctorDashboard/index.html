@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Welcome, Dhiraj Prajapati</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#appointments">Appointments</a>
+                    <ul class="sub-menu">
+                        <li><a href="recentAppoinments.html">Recent Appointments</a></li>
+                        <li><a href="waitingList.html">Future Appointments</a></li>
+                    </ul>
+                </li>
+                <li><a href="#patients">Patients</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#logout">Logout</a></li>
+            </ul>
+            <div class="burger" onclick="toggleNav()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="section">
+                    <h2>Scheduled Appointments</h2>
+                    <p>Total Pending Appointments: <span id="pendingAppointmentsCount">0</span></p>
+                    <a href="recentAppoinments.html?filter=pending">View Pending Appointments</a>
+            </section>
+            <section class="section">
+                <h2>Completed Checkups</h2>
+                <p>Total Completed Appointments: <span id="completedAppointmentsCount">0</span></p>
+                <a href="recentAppoinments.html?filter=completed">View Completed Appointments</a>
+            </section>
+            <section class="section">
+                <h2>Wait-List</h2>
+                <p>Total Appointments in queue: <span id="totalAppointmentsCountinQueue">0</span></p>
+                <a href="waitingList.html">View Appointment Queue</a>
+            </section>
+            <section class="section">
+                <h2>Cancelled Appointment</h2>
+                <p>Total cancelled Appointments: <span id="totalcancelledAppointmentsCount">0</span></p>
+                <a href="recentAppoinments.html?filter=cancelled">View Cancelled Appointment</a>
+            </section>
+            <section class="section">
+                <h2>Patient Details</h2>
+                <a href="#">Patients Page</a>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>123 Main Street, City, Country</p>
+            <p>Phone: +123-456-7890</p>
+            <p>Email: info@example.com</p>
+        </div>
+        <div class="quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Clinic Website</a></li>
+                <li><a href="#">Patient Records</a></li>
+                <li><a href="#appointments">Appointment Management</a></li>
+            </ul>
+        </div>
+        <div class="legal-info">
+            <p>&copy; 2024 Doctor Dashboard. All rights reserved.</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+
+    <script src="scripts.js"></script>
+    <script src="scriptsForRAppoinment.js"></script>
+    <script src="scriptsForWList.js"></script>
+</body>
+</html>
