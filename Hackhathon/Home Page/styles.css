@@ -1,0 +1,415 @@
+/* Add your CSS styles here */
+body {
+    font-family: "Kumbh Sans", 'Roboto','Open Sans','Montserrat', sans-serif;
+    /* font-family: Arial, sans-serif; */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    /* max-width: 1200px; */
+    margin:3px;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1 {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    /* display: inline; */
+    margin-right: 20px;
+}
+
+nav ul li a, .btn-login,
+.btn-signup {
+    color: #fff;
+    text-decoration: none;
+  
+    display: inline-block;
+    position: relative;
+}
+
+.btn-login,
+.btn-signup {
+    background-color:transparent;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+}
+
+nav ul li a:after, .btn-login:after,
+.btn-signup:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom:0;
+    content: "";
+    display: block;
+    height: 2.5px;
+    border-radius: 4px;
+    left: 50%;
+    position: absolute;
+    bottom:auto;
+    background: #fff;
+    transition: width 0.9s ease 0s, left .3s ease 0s;
+    width: 0;
+  }
+  nav ul li a:hover:after, .btn-login:hover:after,
+  .btn-signup:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  @media screen and (max-height: 300px) {
+      nav ul {
+          margin-top: 40px;
+      }
+  }
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.menu-toggle span {
+    display:block;
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-toggle.active {
+    transform: rotate(90deg); /* Rotate the menu toggle icon when active */
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+
+    header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    flex-direction: row-reverse;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        position:absolute;
+        top:4em;
+        left: 2px;
+        right:72%;
+        border-radius: 8px;
+        background-color: #0b7dc8;
+        z-index: 1;
+        display: none;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    color:#0566a7;
+}
+
+.service-block {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 225px;
+}
+
+.service-block h3 {
+    color: #3498db;
+}
+
+.service-block p {
+    color: #555;
+}
+
+#testimonials-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 225px;
+}
+
+.testimonial p strong {
+    color: #3498db;
+    font-size: large;
+}
+
+
+.faq {
+    margin-top: 20px;
+}
+
+.accordion__item {
+    border-bottom: 0.1rem solid var(--dividerGray);
+  }
+  
+  .accordion__item h2 {
+    margin: 0;
+  }
+  
+  .accordion__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.35rem 0.5rem;
+    border: none;
+    background: none;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 1.1em;
+    text-align: left;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .accordion__title:focus,
+  .accordion__title:focus-visible {
+    z-index: 3;
+    outline: solid #3498db;
+    box-shadow: 0 0 0.4rem 0.4rem rgba(31, 106, 219, 0.25);
+    border-radius: 0.3rem;
+  }
+  
+  .accordion__title:hover {
+    cursor: pointer;
+    color: var(--textBlue);
+  }
+  
+  .accordion__title::after {
+    content: "";
+    display: block;
+    width: 1rem;
+    height: 0.6rem;
+    background-image: url("https://raw.githubusercontent.com/MizAndhre/FAQ-accordion-card/2ff2a02d093554f14d0390a409e825669313a16e/images/icon-arrow-down.svg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(1) invert(1);
+    transition: transform 300ms ease-in-out;
+  }
+  
+  .accordion__text {
+    text-align: left;
+    padding: 0.5rem 0.5rem .5rem 0.5rem;
+    line-height: 1.5;
+    color: var(--textDarkBlue);
+  }
+  
+  /* JS Classes */
+  .accordion__title.open {
+    font-weight: 700;
+    color: var(--textBlue);
+  }
+  
+  .accordion__title.open::after {
+    transform: rotate(180deg);
+  }
+  
+  .accordion__collapse.collapse {
+    display: none;
+  }
+  
+  .accordion__collapse.collapsing {
+    height: 0;
+    overflow: hidden;
+    transition: height 1s ease;
+  }
+  
+  .accordion__collapse.open {
+    display: block;
+  }
+  
+  #contact {
+    background-color: #f4f4f4;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #3498db;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+#contact p:last-child {
+    margin-bottom: 0;
+}
+
+#contact p i {
+    margin-right: 5px;
+}
+
+#contact-mail{
+    text-decoration: none;
+    color:#555;
+}
+
+#contact-mail:hover {
+    color :#0b7dc8;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+#DoctorDetails {
+    display: flex;
+    /* max-width: 800px; */
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.doctor-profile {
+    background-color:#f0f0f0;
+    width: 225px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    align-items: center;
+}
+
+.doctor-photo {
+    flex: 1;
+    text-align: center;
+}
+
+.doctor-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 18px;
+}
+
+.doctor-info {
+    flex: 3;
+    padding: 0px 18px 18px 18px;
+    text-align: center;
+}
+
+.doctor-info h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.doctor-info p {
+    color: #444;
+    margin: 5px 0;
+}
+
+.btn-appointment {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-appointment:hover {
+    background-color:#0b7dc8;
+}
+
+#quote{
+    font-size:1.5rem;
+    font-family: monospace, "Kumbh Sans", 'Roboto';
+}
