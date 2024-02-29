@@ -22,20 +22,18 @@
             <!-- Add more time slots as needed -->
         </select><br>
 
-        <label for="doctor">Doctor:</label>
+        <!-- <label for="doctor">Doctor:</label>
         <select id="doctor" name="doctor" required>
             <option value="">Select Doctor</option>
             <option value="Dr. John Doe">Dr. John Doe</option>
             <option value="Dr. Jane Smith">Dr. Jane Smith</option>
-            <!-- Add more doctors as needed -->
+            
+        </select><br> -->
+        <label for="doctor">Doctor:</label>
+        <select id="doctor" name="doctor" required>
+            <!-- Doctors will be populated dynamically here -->
         </select><br>
 
-        <label for="mode">Mode of Checkup:</label>
-        <select id="mode" name="mode" required>
-            <option value="">Select Mode</option>
-            <option value="virtual">Virtual</option>
-            <option value="inhospital">In Hospital</option>
-        </select><br>
 
         <label for="reason">Reason for Checkup:</label>
         <select id="mode" name="mode" required>
@@ -53,7 +51,7 @@
         <input type="submit" value="Schedule Appointment">
     </form>
 
-    <script src="script.js"></script>
+    <script src="scripts.js"></script>
     <script>
         // Set min date to tomorrow
         var tomorrow = new Date();
