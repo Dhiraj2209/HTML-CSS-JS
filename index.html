@@ -49,16 +49,46 @@
     <form action="/action">
       <label>
         Username : 
-        <input type="text" placeholder="Enter Username"><br>
+        <input type="text" placeholder="Enter Username" id="username" name="username"><br>
       </label>
-      Email : <input type="email" placeholder="Enter your Email"><br>
-      Password : <input type="password" placeholder="Enter your Password"><br>
+      Email : <input type="email" placeholder="Enter your Email" id="email" name="email"><br>
+      <!-- Password : <input type="password" placeholder="Enter your Password"><br>
       Enrollment Number : <input type="number" placeholder="Enter your Enrollment number"><br>
-      Time : <input type="time" placeholder="Enter time of your birth">
+      Time : <input type="time" placeholder="Enter time of your birth"> -->
+      <!-- <br> -->
       <br>
-      <button type="button">Submit</button>
+      <!-- <input type="submit" value="Clickkkkk me"> -->
+      <input type="checkbox" name="age" id="age" >
+      <label for="age">I am 18 +</label>
+      <div>
+        <input type="radio" name="fruit" id="apple" value="apple">
+        <label for="apple">Apple</label>
+        <input type="radio" name="fruit" id="mango" value="mango">
+        <label for="mango">Mango</label>
+        <input type="radio" name="fruit" id="banana" value="banana">
+        <label for="banana">Banana</label>
+      </div>
       <br>
-      <input type="submit" value="Clickkkkk me">
+      <div>
+        Select one Subject :
+        <select name="sub" id="sub">
+          <option>Choose your Subject</option>
+          <option value="math">Maths</option>
+          <option value="sci">Science</option>
+        </select>
+      </div>
+      <label for="mood">Mood Sad : Happy</label>
+      <input type="range" min="0" max="20" name="mood">
+      <br>
+      <label for="feedback">Please give your feedback</label>
+      <textarea id="feedback" name="feed "></textarea>
+      <br>
+      <button>Submit</button>
+    </form>
+    <hr>
+    <form action="https://www.bing.com/search?">
+      <input type="text" placeholder="Search to Bing" name="q">
+      <button>Submit</button>
     </form>
   </main>
   
