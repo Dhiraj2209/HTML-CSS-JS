@@ -1,0 +1,177 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px;
+    font-weight: 800;
+}
+ 
+#bank_name {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+#bank_name p{
+    font-size: 25px;
+    margin : 5px 0px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.branch-date-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.2px solid black;
+    padding: 5px;
+}
+
+.branch {
+    flex: 1;
+    font-size: large;
+}
+
+.date {
+    flex: 1;
+    text-align: right;
+}
+
+.date input{
+    border: none;
+    border-bottom: 1.5px solid black;
+    outline: none;
+    background: transparent;
+    font-size: large;
+}
+ 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+footer {
+    text-align: left;
+}
+
+footer p {
+    margin : 10px 0px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#bankUse {
+    text-align: center;
+}
+
+#neft_rgts{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+    margin : 10px 0px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 6px;
+}
+
+/* table td:first-child {
+    width: 40%; 
+} */
+
+.full-width {
+    width: 100%;
+    border: none;
+    background: transparent;
+    padding: 0; 
+    font-size: inherit; 
+    line-height: inherit;
+}
+
+.full-width:focus {
+    outline: none;
+}
+
+#acc_che {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#acc_che select {
+    background:transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.chequeNo {
+    flex: 1;
+    text-align: right;
+}
+
+.chequeNo input {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+}
+
+.caption-left-align {
+    text-align: left;
+}
+
+.ifsc-code {
+    display: flex;
+    align-items: center;
+}
+
+.ifsc-input {
+    width: 25px;
+    height: 22px;
+    text-align: center;
+    margin-right: 3px;
+    border: 1px solid #000000;
+    /* border-radius: 2px; */
+    font-size: 16px;
+}
+
+.acc-input {
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    margin-right: 2px;
+    border : 1px solid black;
+    font-size: 14px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    font-size: large;
+}
+
+@media print {
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+    header, footer {
+        width: 100%;
+    }
+    button {
+        display: none;
+    }
+}
+ 

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEFT/RTGS Funds Transfer Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="bank_name">
+            <p>The Kalupur Commercial Co.op Bank Ltd.</p>
+            <p>(Multi State Scheduled Bank)</p>
+        </div>
+        <div class="branch-date-container">
+            <div class="branch">
+                <!-- <input type="text" id="branchInput" name="branchInput"> -->
+                <!-- <label for="branchInput">Branch:</label> -->
+                <u> Kathwada </u> Branch
+            </div>
+            <div class="date">
+                <label for="dateInput">Date:</label>
+                <input type="date" id="dateInput" name="dateInput">
+            </div>
+        </div>
+    </header>
+    <main>
+        <p id="neft_rgts">NEFT/RTGS FUNDS TRANSFER APPLICATION FORM</p>
+        <table id="ApplicantDetails">
+            <caption class="caption-left-align">Applicant (Remitter) Details:</caption>
+            <!-- <tr>
+                <td><label for="accountTitleName">Account Title/Name:</label></td>
+                <td><input type="text" id="accountTitleName" name="accountTitleName" class="full-width" required></td>
+            </tr> -->
+            <tr>
+                <td><label for="accountTitleName">Account Title/Name:</label></td>
+                <td>
+                    <select id="accountname" name="accountname" class="full-width">
+                        <option value="prakash">PRAKASH TRADING COMPANY</option>
+                        <option value="charbhuja">SHREE CHARBHUJA TRADING COMPANY</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="debitAccountNumber">Debit Account Number:</label></td>
+                <td><input type="text" id="debitAccountNumber" name="debitAccountNumber" class="full-width" required></td>
+            </tr>
+            <tr>
+                <td id="acc_che">
+                    <label for="accountType">Account Type:</label>
+                    <select id="accountType" name="accountType" required>
+                        <option value="Current">Current</option>
+                        <option value="Savings">Savings</option>
+                        <option value="CC">CC</option>
+                        <option value="HYP">HYP</option>
+                        <option value="IHP">IHP</option>
+                        <option value="FDOD">FDOD</option>
+                    </select>
+                </td>
+                <td colspan="2">
+                    <div class="chequeNo">
+                        <label for="chequeNo">Cheque No.:</label>
+                        <input type="text" id="chequeNo" name="chequeNo" required>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="contactNo">Contact No.:</label></td>
+                <td><input type="text" id="contactNo" name="contactNo" class="full-width" required></td>
+            </tr>
+            <tr>
+                <td><label for="emailAddress">Email Address:</label></td>
+                <td><input type="email" id="emailAddress" name="emailAddress" class="full-width" required></td>
+            </tr>
+        </table>
+        <br>
+
+        <table id="BeneficiaryDetails">
+            <caption class="caption-left-align">Beneficiary Details:</caption>
+            <tr>
+                <td><label for="ifscCode">IFSC Code of Beneficiary Bank:</label></td>
+                <td colspan="11">
+                    <div class="ifsc-code">
+                        <input type="text" id="ifsc1" maxlength="1" class="ifsc-input" required>
+                        <input type="text" id="ifsc2" maxlength="1" class="ifsc-input" required>
+                        <input type="text" id="ifsc3" maxlength="1" class="ifsc-input" required>
+                        <input type="text" id="ifsc4" maxlength="1" class="ifsc-input" required>
+                        <input type="text" id="ifsc5" maxlength="1" class="ifsc-input" required>
+                        <input type="text" id="ifsc6" maxlength="1" class="ifsc-input" required>
+                        <input type="text" id="ifsc7" maxlength="1" class="ifsc-input" required>
+                        <input type="text" id="ifsc8" maxlength="1" class="ifsc-input" required>
+                        <input type="text" id="ifsc9" maxlength="1" class="ifsc-input" required>
+                        <input type="text" id="ifsc10" maxlength="1" class="ifsc-input" required>
+                        <input type="text" id="ifsc11" maxlength="1" class="ifsc-input" required>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <label for="beneficiaryBank">Beneficiary Bank:</label>
+                    </div>
+                    <div>
+                        <input type="text" id="beneficiaryBank" name="beneficiaryBank" class="full-width" required>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <label for="branch">Branch:</label>
+                    </div>
+                    <div>
+                        <input type="text" id="branch" name="branch" class="full-width" required>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <label for="city">City:</label>
+                    </div>
+                    <div>
+                        <input type="text" id="city" name="city" class="full-width" required>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label for="beneficiaryAccountNumber">Beneficiary Account Number:</label></td>
+                <td colspan="15">
+                    <div class="account-number">
+                        <input type="text" id="acc1" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc2" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc3" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc4" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc5" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc6" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc7" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc8" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc9" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc10" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc11" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc12" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc13" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc14" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc15" maxlength="1" class="acc-input" required>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="reconfirmBeneficiaryAccountNumber">Reconfirmation of Beneficiary Account Number:</label></td>
+                <td colspan="15">
+                    <div class="account-number">
+                        <input type="text" id="acc1" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc2" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc3" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc4" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc5" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc6" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc7" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc8" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc9" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc10" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc11" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc12" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc13" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc14" maxlength="1" class="acc-input" required>
+                        <input type="text" id="acc15" maxlength="1" class="acc-input" required>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="beneficiaryName">Beneficiary Name:</label></td>
+                <td colspan="10"><input type="text" id="beneficiaryName" name="beneficiaryName" class="full-width" required></td>
+            </tr>
+            <tr>
+                <td><label for="beneficiaryAddress">Beneficiary Address:</label></td>
+                <td colspan="10">
+                    <textarea id="beneficiaryAddress" name="beneficiaryAddress" rows="2" cols="50" class="full-width" required></textarea></td>
+                </td>
+            </tr>
+        </table>
+        <br>
+
+        <table id="RemittanceDetails">
+            <caption class="caption-left-align">Remittance Details:</caption>
+                <tr>
+                    <td><label for="neftRtgsAmtFigures">NEFT/RTGS Amt. (in figures):</label></td>
+                    <td><input type="number" id="neftRtgsAmtFigures" name="neftRtgsAmtFigures" class="full-width" required></td>
+                </tr>
+                <tr>
+                    <td><label for="neftRtgsAmtWords">NEFT/RTGS Amt. (in words):</label></td>
+                    <td><input type="text" id="neftRtgsAmtWords" class="full-width" name="neftRtgsAmtWords" required></td>
+                </tr>
+                <tr>
+                    <td><label for="bankCharges">Bank Charges:</label></td>
+                    <td><input type="text" id="bankCharges" name="bankCharges" class="full-width" required></td>
+                </tr>
+                <tr>
+                    <td><label for="totalAmountFigures">Total amount (in figures):</label></td>
+                    <td><input type="text" id="totalAmountFigures" name="totalAmountFigures"  class="full-width" required></td>
+                </tr>
+                <tr>
+                    <td><label for="totalAmountWords">Total amount (in words):</label></td>
+                    <td><input type="text" id="totalAmountWords" name="totalAmountWords" class="full-width" required></td>
+                </tr>
+                <tr>
+                    <td><label for="remarkNarration">Remark / Narration:</label></td>
+                    <td><textarea id="remarkNarration" name="remarkNarration" rows="1" cols="50" class="full-width" required></textarea></td>
+                </tr>
+        </table>
+    </main>
+    <footer>
+        <p><u>Note :- </u>Terms & Conditions relating to this transaction as mentioned overleaf have been noted.</p>
+        <p>Yours Sincerely,</p>
+        <br><br>
+        <p>____________________________________</p>
+        <p>Stamp & Signature of Authorised Signatory/ies</p>
+        <hr>
+        <div id="bankUse">
+            <p><u><b>FOR BANK USE</b></u></p>
+        </div>
+        <p>Debited applicant’s a/c ___________________________________ Entry by __________________________________</p>
+        <p>Authorised Signatory Level (1)____________________ Authorised Signatory Level (2) ________________________</p>
+        <p>Date: ___________________________________________________________________________________ P.T.O.</p>
+    </footer>
+    <button onclick="printForm()">Print Form</button>
+    <script src="script.js"></script>
+</body>
+</html>
