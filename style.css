@@ -23,3 +23,7 @@ main h3 {
 #sub {
     color: hotpink;
 }
+
+h1 + h3 {
+    color:rgb(0, 168, 17);
+}
