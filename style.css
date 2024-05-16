@@ -16,14 +16,19 @@ header h1 {
     font-family: fantasy;
 }
 
-main h3 {
+main h3 { /* Desecent Selector */
     color:#ff0088; /* Hex Value */
 }
 
-#sub {
+#sub { /* By id # */
     color: hotpink;
 }
 
-h1 + h3 {
+h1 + h3 { /* Silbling Combinator */
     color:rgb(0, 168, 17);
+}
+
+table > caption { /* Child combinator */ 
+    color: blueviolet;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
