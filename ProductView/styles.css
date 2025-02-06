@@ -1,0 +1,196 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf7f7;
+}
+
+h2, p {
+    margin: 0;
+}
+
+/* Main Section */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 34px;
+    color: #222;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Item Cards */
+.listProduct {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.item-card {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    text-align: center;
+    margin-bottom: 20px;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.item-card:hover {
+    transform: translateY(-10px);
+}
+
+.item-link {
+    display: block;
+    margin: 10px;
+}
+
+.item-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    /* max-height: 300px; */
+}
+
+.item-info {
+    padding: 7px;
+}
+
+.item-title {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+}
+
+/* .item-price {
+    font-size: 16px;
+    color: #555;
+} */
+
+.item-description {
+    padding: 10px;
+    color: #777;
+    font-size: 14px;
+    max-height: 3em; /* Show only two lines */
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.3s ease;
+}
+
+.item-description.expanded {
+    max-height: 1000px; /* Expands to fit content */
+}
+
+.read-more-btn {
+    background: none;
+    border: none;
+    color: #007BFF;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.whatsapp-btn {
+    /* display: inline-block; */
+    /* width: 90%;  Adjust as needed or use 100% for full width */
+    /* box-sizing: border-box; Ensures padding is included in width calculation */
+    padding: 10px 15px;
+    background-color: #2654c9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center; /* Centers the text */
+    transition: background-color 0.3s;
+    overflow: hidden; /* Prevents content overflow */
+    position: absolute;
+    bottom: 10px;
+    left: 5%;
+    right: 5%;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebe5d;
+}
+
+
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 28px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .listProduct {
+        justify-content: center;
+    }
+
+    .item-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .item-title {
+        font-size: 16px;
+    }
+
+    .item-price {
+        font-size: 14px;
+    }
+
+    .item-description {
+        font-size: 13px;
+    }
+}
+
+/* Extra Small Mobile */
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .item-card {
+        width: 100%;
+    }
+
+    .item-title {
+        font-size: 14px;
+    }
+
+    .item-price {
+        font-size: 12px;
+    }
+
+    .item-description {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Handmade Vase",
+        "price": 30,
+        "image": "1.jpg",
+        "description": "Perfectly crafted ceramic vase with intricate details."
+    },
+    {
+        "id": 2,
+        "name": "Wooden Frame",
+        "price": 25,
+        "image": "1.jpg",
+        "description": "Handcrafted wooden frame perflorem ipdnaj babdui adhah dahdah daha jnaiadn ahd jd ahd ahd an dai aect for your favorite photo."
+    },
+    {
+        "id": 3,
+        "name": "Resin Keychain",
+        "price": 15,
+        "image": "product_img/1.jpg",
+        "description": "Handmdasjdajdjahdahdah bdajdjah hjadhkj dahjah adbja nd ajnd ajd a djna djna dja djna jd ajd ajd ajnd ja dja ade resin keychain with vibrant colors."
+    },
+    {
+        "id": 2,
+        "name": "Wooden Frame",
+        "price": 25,
+        "image": "1.jpg",
+        "description": "Handcrafted wooden frame perflorem ipdnaj babdui adhah dahdah daha jnaiadn ahd jd ahd ahd an dai aect for your favorite photo."
+    },
+    {
+        "id": 3,
+        "name": "Resin Keychain",
+        "price": 15,
+        "image": "i/handcrafted-item3.jpg",
+        "description": "Handmdasjdajdjahdahdah bdajdjah hjadhkj dahjah adbja nd ajnd ajd a djna djna dja djna jd ajd ajd ajnd ja dja ade resin keychain with vibrant colors."
+    },
+    {
+        "id": 2,
+        "name": "Wooden Frame",
+        "price": 25,
+        "image": "1.jpg",
+        "description": "Handcrafted wooden frame perflorem ipdnaj babdui adhah dahdah daha jnaiadn ahd jd ahd ahd an dai aect for your favorite photo."
+    },
+    {
+        "id": 3,
+        "name": "Resin Keychain",
+        "price": 15,
+        "image": "i/handcrafted-item3.jpg",
+        "description": "Handmdasjdajdjahdahdah bdajdjah hjadhkj dahjah adbja nd ajnd ajd a djna djna dja djna jd ajd ajd ajnd ja dja ade resin keychain with vibrant colors."
+    }
+]
