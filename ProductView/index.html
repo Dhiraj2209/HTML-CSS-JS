@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handcrafted Items</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="title">Discover Unique Handcrafted Creations</div>
+        <p class="subtitle">Explore our exclusive collection of handmade items, perfect for gifting and bringing a personal touch to your space!</p>
+        <div class="listProduct"></div>
+    </div>
+
+    <script>
+        let products = null;
+        fetch('products.json')
+            .then(response => response.json())
+            .then(data => {
+                products = data;
+                addDataToHTML();
+            });
+
+        function addDataToHTML() {
+            const listProductHTML = document.querySelector('.listProduct');
+            listProductHTML.innerHTML = '';
+
+            if (products) {
+                products.forEach(product => {
+                    const newProduct = document.createElement('div');
+                    newProduct.classList.add('item-card');
+
+                    const isLongDescription = product.description.length > 100;
+                    const shortDesc = product.description.slice(0, 100);
+
+                    newProduct.innerHTML = `
+                        <a href="#" class="item-link">
+                            <img src="${product.image}" alt="${product.name}" class="item-image">
+                        </a>
+                        <div class="item-info">
+                            <h5><a href="#" class="item-title">${product.name}</a></h5>
+                        </div>
+                        <p class="item-description">${isLongDescription ? shortDesc + '...' : product.description}</p>
+                        ${isLongDescription ? '<button class="read-more-btn">Read More</button>' : ''}
+                        <a href="https://wa.me/919054466652?text=I\'m%20interested%20in%20${encodeURIComponent(product.name)}" target="_blank" class="whatsapp-btn">📱 Inquire on WhatsApp</a>
+                    `;
+
+                    listProductHTML.appendChild(newProduct);
+
+                    if (isLongDescription) {
+                        const readMoreBtn = newProduct.querySelector('.read-more-btn');
+                        const descElement = newProduct.querySelector('.item-description');
+                        readMoreBtn.addEventListener('click', () => {
+                            descElement.classList.toggle('expanded');
+                            readMoreBtn.textContent = descElement.classList.contains('expanded') ? 'Read Less' : 'Read More';
+                            if (descElement.classList.contains('expanded')) {
+                                descElement.innerText = product.description;
+                            } else {
+                                descElement.innerText = shortDesc + '...';
+                            }
+                        });
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+</html>
