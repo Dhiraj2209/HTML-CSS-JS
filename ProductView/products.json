@@ -1,51 +1,75 @@
 [
     {
         "id": 1,
-        "name": "Handmade Vase",
-        "price": 30,
-        "image": "1.JPG",
-        "description": "Perfectly crafted ceramic vase with intricate details."
+        "name": "Forever Blossom Frame 🌸✨",
+        "image": "product_img/8Frame2.1.JPG",
+        "description": "Capture your eternal love with the Forever Blossom Frame. Perfect for Valentine's Day, anniversaries, or just to say ‘I love you’ 💖. Adorned with delicate flowers 🌼, golden flakes ✨, and personalized details, it’s a timeless keepsake for your cherished moments."
     },
     {
         "id": 2,
-        "name": "Wooden Frame",
-        "price": 25,
-        "image": "1.JPG",
-        "description": "Handcrafted wooden frame perflorem ipdnaj babdui adhah dahdah daha jnaiadn ahd jd ahd ahd an dai aect for your favorite photo."
+        "name": "Preserve Your Special Rose🌹",
+        "price": 15,
+        "image": "product_img/RoseCoaster.JPEG",
+        "description": "Preserve the rose given by someone special in this beautiful resin coaster. Perfect for cherishing moments like Valentine's Day, anniversaries, and more. A timeless keepsake for your precious memories. 🌹✨"
     },
     {
         "id": 3,
-        "name": "Resin Keychain",
-        "price": 15,
-        "image": "product_img/1.JPG",
-        "description": "Handmdasjdajdjahdahdah bdajdjah hjadhkj dahjah adbja nd ajnd ajd a djna djna dja djna jd ajd ajd ajnd ja dja ade resin keychain with vibrant colors."
+        "name": "Carry Love Everywhere✨",
+        "image": "product_img/RoseInitial.JPEG",
+        "description": "Personalized resin initial keychain with real rose petals and gold flakes — a perfect blend of elegance and sentiment. Gift it to someone special or keep your initial close to your heart. ❤️✨🔑!"
     },
     {
-        "id": 2,
-        "name": "Wooden Frame",
-        "price": 25,
-        "image": "1.jpg",
-        "description": "Handcrafted wooden frame perflorem ipdnaj babdui adhah dahdah daha jnaiadn ahd jd ahd ahd an dai aect for your favorite photo."
+        "id": 4,
+        "name": "Letters of Love💖",
+        "image": "product_img/namestand.JPEG",
+        "description": "Preserve memories in style with custom resin letters filled with vibrant blooms. A heartfelt keepsake for couples, friends, or family to celebrate love and connection. 💖🌿"
     },
     {
-        "id": 3,
-        "name": "Resin Keychain",
-        "price": 15,
-        "image": "i/handcrafted-item3.jpg",
-        "description": "Handmdasjdajdjahdahdah bdajdjah hjadhkj dahjah adbja nd ajnd ajd a djna djna dja djna jd ajd ajd ajnd ja dja ade resin keychain with vibrant colors."
+        "id": 5,
+        "name": "Daisy Jhumka 🌼✨",
+        "image": "product_img/Earring3.1.JPG",
+        "description": "Elegant jhumka-style earrings featuring real daisy flowers encased in resin, paired with intricate silver detailing and delicate hanging beads. A perfect blend of nature’s charm and traditional grace. 🌿"
     },
     {
-        "id": 2,
-        "name": "Wooden Frame",
-        "price": 25,
-        "image": "1.jpg",
-        "description": "Handcrafted wooden frame perflorem ipdnaj babdui adhah dahdah daha jnaiadn ahd jd ahd ahd an dai aect for your favorite photo."
+        "id": 6,
+        "name": "Vibrant Memories Coaster 🌈✨",
+        "image": "product_img/4Frame2.1.JPG",
+        "description": "Brighten up your space with the Vibrant Memories Coaster! A splash of colorful stones 🌟, cute stickers 🐻, and delicate dried flowers 🌼 make it the perfect personalized keepsake. Add your favorite photo 📸 and name to create a fun, cheerful memento for any occasion."
     },
     {
-        "id": 3,
-        "name": "Resin Keychain",
-        "price": 15,
-        "image": "i/handcrafted-item3.jpg",
-        "description": "Handmdasjdajdjahdahdah bdajdjah hjadhkj dahjah adbja nd ajnd ajd a djna djna dja djna jd ajd ajd ajnd ja dja ade resin keychain with vibrant colors."
+        "id": 7,
+        "name": "💍 Forever Love Wedding Frame 💑",
+        "image": "product_img/varmalapreserv.JPEG",
+        "description": "Preserve your special day with this beautiful resin wedding keepsake frame ✨. Featuring your photo, names, date, and elegant details like dried flowers 🌸 & pearls 🤍, it’s a perfect memory to cherish forever ♾️. Customizable to make it uniquely yours! 💖"
+    },
+    {
+        "id": 8,
+        "name": "Sunshine Bloom Keychain 🌻✨",
+        "image": "product_img/2KC1.1.JPG",
+        "description": "Carry a little sunshine wherever you go with the Sunshine Bloom Keychain! This vibrant yellow charm features a stunning dried sunflower 🌼, delicate golden flakes ✨, and a personalized name touch. A tiny pearl heart 🤍 adds a sweet detail, making it the perfect gift for someone special—or for yourself!"
+    },
+    {
+        "id": 9,
+        "name": "Ocean Bliss Keychains 🌊",
+        "image": "product_img/SeaKC1.1.JPG",
+        "description": "Carry a piece of the ocean wherever you go! These charming keychains blend natural shells, tiny aquatic details, and crystal-clear resin to create a peaceful lagoon effect, making them a perfect keepsake or gift."
+    },
+    {
+        "id": 10,
+        "name": "📸 Mini Memory Keychain ✨",
+        "image": "product_img/photokeychain.JPEG",
+        "description": "Carry your favorite moments wherever you go with this custom resin photo keychain 💖. Decorated with dried flowers 🌸 and shiny flakes ✨, it’s the perfect little keepsake to keep your memories close! 🗝️."
+    },
+    {
+        "id": 11,
+        "name": "🌟 Tiny Treasures Memory Frame 🌟",
+        "image": "product_img/babykeepsakeocean.JPEG",
+        "description": "Capture the magic of your baby's first moments with the Tiny Treasures Memory Frame 👶💖. This resin masterpiece holds precious keepsakes like baby bracelets, adorable photos, and birth details 🗓️⏰, decorated with seashells 🐚 and personalized touches for a timeless memory."
+    },
+    {
+        "id": 15 ,
+        "name": " Grain Essence Letters 🌾",
+        "image": "product_img/WoodNP1.2.JPG",
+        "description": " A unique resin art piece featuring the letters PTC embedded with natural grains, showcasing the raw beauty of seeds and pulses. Mounted on a wooden base, it symbolizes growth, abundance, and earthy elegance."
     }
 ]
