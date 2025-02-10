@@ -67,7 +67,7 @@ h2, p {
 }
 
 .item-image {
-    width: 100%;
+    width: 95%;
     object-fit: cover;
     border-radius: 5px;
     /* max-height: 300px; */
@@ -78,21 +78,17 @@ h2, p {
 }
 
 .item-title {
-    font-size: 18px;
+    font-size: 20px;
     color: #333;
     text-decoration: none;
 }
 
-/* .item-price {
-    font-size: 16px;
-    color: #555;
-} */
 
 .item-description {
     padding: 10px;
     color: #777;
-    font-size: 14px;
-    max-height: 3em; /* Show only two lines */
+    font-size: 16px;
+    max-height: 2em; /* Show only two lines */
     overflow: hidden;
     position: relative;
     transition: max-height 0.3s ease;
@@ -112,9 +108,6 @@ h2, p {
 }
 
 .whatsapp-btn {
-    /* display: inline-block; */
-    /* width: 90%;  Adjust as needed or use 100% for full width */
-    /* box-sizing: border-box; Ensures padding is included in width calculation */
     padding: 10px 15px;
     background-color: #2654c9;
     color: #fff;
@@ -152,19 +145,15 @@ h2, p {
 
     .item-card {
         width: 80%;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .item-title {
-        font-size: 16px;
-    }
-
-    .item-price {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .item-description {
-        font-size: 13px;
+        font-size: 16px;
     }
 }
 

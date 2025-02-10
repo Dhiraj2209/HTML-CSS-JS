@@ -9,19 +9,19 @@
         "id": 2,
         "name": "Preserve Your Special Rose🌹",
         "price": 15,
-        "image": "product_img/RoseCoaster.JPEG",
+        "image": "product_img/RoseCoaster.jpeg",
         "description": "Preserve the rose given by someone special in this beautiful resin coaster. Perfect for cherishing moments like Valentine's Day, anniversaries, and more. A timeless keepsake for your precious memories. 🌹✨"
     },
     {
         "id": 3,
         "name": "Carry Love Everywhere✨",
-        "image": "product_img/RoseInitial.JPEG",
+        "image": "product_img/RoseInitial.jpeg",
         "description": "Personalized resin initial keychain with real rose petals and gold flakes — a perfect blend of elegance and sentiment. Gift it to someone special or keep your initial close to your heart. ❤️✨🔑!"
     },
     {
         "id": 4,
         "name": "Letters of Love💖",
-        "image": "product_img/namestand.JPEG",
+        "image": "product_img/namestand.jpeg",
         "description": "Preserve memories in style with custom resin letters filled with vibrant blooms. A heartfelt keepsake for couples, friends, or family to celebrate love and connection. 💖🌿"
     },
     {
@@ -39,14 +39,14 @@
     {
         "id": 7,
         "name": "💍 Forever Love Wedding Frame 💑",
-        "image": "product_img/varmalapreserv.JPEG",
+        "image": "product_img/varmalapreserv.jpeg",
         "description": "Preserve your special day with this beautiful resin wedding keepsake frame ✨. Featuring your photo, names, date, and elegant details like dried flowers 🌸 & pearls 🤍, it’s a perfect memory to cherish forever ♾️. Customizable to make it uniquely yours! 💖"
     },
     {
         "id": 8,
-        "name": "Sunshine Bloom Keychain 🌻✨",
-        "image": "product_img/2KC1.1.JPG",
-        "description": "Carry a little sunshine wherever you go with the Sunshine Bloom Keychain! This vibrant yellow charm features a stunning dried sunflower 🌼, delicate golden flakes ✨, and a personalized name touch. A tiny pearl heart 🤍 adds a sweet detail, making it the perfect gift for someone special—or for yourself!"
+        "name": "Glimpse of Love 💕",
+        "image": "product_img/Acyframe.jpg",
+        "description": " A heartfelt acrylic masterpiece that freezes your special day in time, reminding you of the vows, smiles, and precious memories shared together. 🌟💍"
     },
     {
         "id": 9,
@@ -57,19 +57,37 @@
     {
         "id": 10,
         "name": "📸 Mini Memory Keychain ✨",
-        "image": "product_img/photokeychain.JPEG",
+        "image": "product_img/photokeychain.jpeg",
         "description": "Carry your favorite moments wherever you go with this custom resin photo keychain 💖. Decorated with dried flowers 🌸 and shiny flakes ✨, it’s the perfect little keepsake to keep your memories close! 🗝️."
     },
     {
         "id": 11,
+        "name": "Sunshine Bloom Keychain 🌻✨",
+        "image": "product_img/2KC1.1.jpg",
+        "description": "Carry a little sunshine wherever you go with the Sunshine Bloom Keychain! This vibrant yellow charm features a stunning dried sunflower 🌼, delicate golden flakes ✨, and a personalized name touch. A tiny pearl heart 🤍 adds a sweet detail, making it the perfect gift for someone special—or for yourself!"
+    },
+    {
+        "id": 12 ,
+        "name": " Personalized Resin Initial Keychain ✨",
+        "image": "product_img/Keyc22.JPG",
+        "description": " Add a unique charm to your keys or bags with our custom resin initial keychains, beautifully handcrafted with vibrant colors, gold foil flakes, and cute embellishments like hearts, glitters, and more."
+    },
+    {
+        "id": 13,
         "name": "🌟 Tiny Treasures Memory Frame 🌟",
-        "image": "product_img/babykeepsakeocean.JPEG",
+        "image": "product_img/babykeepsakeocean.jpeg",
         "description": "Capture the magic of your baby's first moments with the Tiny Treasures Memory Frame 👶💖. This resin masterpiece holds precious keepsakes like baby bracelets, adorable photos, and birth details 🗓️⏰, decorated with seashells 🐚 and personalized touches for a timeless memory."
     },
     {
-        "id": 15 ,
+        "id": 14 ,
         "name": " Grain Essence Letters 🌾",
         "image": "product_img/WoodNP1.2.JPG",
         "description": " A unique resin art piece featuring the letters PTC embedded with natural grains, showcasing the raw beauty of seeds and pulses. Mounted on a wooden base, it symbolizes growth, abundance, and earthy elegance."
+    },
+    {
+        "id": 15 ,
+        "name": " UV Sticker Printing",
+        "image": "product_img/uvdtf.png",
+        "description": " Personalize your world with premium UV DTF stickers. Bold, colorful, and durable—crafted from your unique designs to stick with style! 🖼️🔥"
     }
 ]
